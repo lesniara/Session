@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Arkady Lesniara</Authors>
+    <PackageId>Lesniarasoft.Client.Session</PackageId>
+    <Product>Lesniarasoft.Client.Session</Product>
+    <Description>Library to keep an ad-hoc gloabal session dictionary.</Description>
+  </PropertyGroup>
+
+</Project>
