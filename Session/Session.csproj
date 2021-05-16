@@ -7,6 +7,9 @@
     <PackageId>Lesniarasoft.Client.Session</PackageId>
     <Product>Lesniarasoft.Client.Session</Product>
     <Description>Library to keep an ad-hoc gloabal session dictionary.</Description>
+    <PackageProjectUrl>https://github.com/lesniara/Session</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lesniara/Session</RepositoryUrl>
+    <PackageTags>Session, Client, Xamarin, C#</PackageTags>
   </PropertyGroup>
 
 </Project>
