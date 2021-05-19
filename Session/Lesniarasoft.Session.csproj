@@ -6,7 +6,7 @@
     <Authors>Arkady Lesniara</Authors>
     <PackageId>Lesniarasoft.Client.Session</PackageId>
     <Product>Lesniarasoft.Client.Session</Product>
-    <Description>Library to keep an ad-hoc gloabal session dictionary.</Description>
+    <Description>Library to keep an ad-hoc global session dictionary for use in Xamarin.Forms or other .netstandard2 and up applications. Type-safe and thread-safe. Store primitives or objects.</Description>
     <PackageProjectUrl>https://github.com/lesniara/Session</PackageProjectUrl>
     <RepositoryUrl>https://github.com/lesniara/Session</RepositoryUrl>
     <PackageTags>Session, Client, Xamarin, C#</PackageTags>
