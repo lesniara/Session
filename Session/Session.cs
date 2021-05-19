@@ -12,7 +12,7 @@ namespace Lesniarasoft.Client
         private static object _lock = new object();
 
         /// <summary>
-        /// Internal backing Dictionary variable
+        /// Internal backing Dictionary object
         /// </summary>
         public static Dictionary<string, object> Bag {
             get{
@@ -33,6 +33,11 @@ namespace Lesniarasoft.Client
         {
             lock (_lock)
             {
+                if(key == null)
+                {
+                    key = "undefined";
+                }
+
                 if (!_Bag.ContainsKey(key))
                 {
                     _Bag.Add(key, null);
@@ -43,7 +48,7 @@ namespace Lesniarasoft.Client
         }
 
         /// <summary>
-        /// Retrieve an existing 
+        /// Retrieve an existing value per provided key
         /// </summary>
         /// <typeparam name="T">Generic Type</typeparam>
         /// <param name="key">Key to retrieve the associated session value</param>

@@ -10,6 +10,7 @@
     <PackageProjectUrl>https://github.com/lesniara/Session</PackageProjectUrl>
     <RepositoryUrl>https://github.com/lesniara/Session</RepositoryUrl>
     <PackageTags>Session, Client, Xamarin, C#</PackageTags>
+    <AssemblyName>Lesniarasoft.Session</AssemblyName>
   </PropertyGroup>
 
 </Project>

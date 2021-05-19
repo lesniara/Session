@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Session\Session.csproj" />
+    <ProjectReference Include="..\Session\Lesniarasoft.Session.csproj" />
   </ItemGroup>
 
 </Project>
